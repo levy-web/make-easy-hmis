@@ -26,6 +26,7 @@
     "jwt-decode": "^3.1.2",
     "next": "latest",
     "node-fetch": "^3.3.2",
+    "openai": "^4.0.0",
     "react": "latest",
     "react-dom": "latest",
     "react-icons": "^4.11.0",

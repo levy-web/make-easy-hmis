@@ -4,11 +4,13 @@ import DashboardLayout from "@/components/layout/dashboard-layout";
 import { Container, TextField, Button } from "@mui/material";
 import AuthGuard from "@/assets/hoc/auth-guard";
 import ProtectedRoute from "@/assets/hoc/protected-route";
+import PromptForm from "@/components/ai-assistant/PromptForm";
 
 const Messages = () => {
   return (
     <Container maxWidth="xl">
       <h1>AI Assistant</h1>
+      <PromptForm/>
     </Container>
   );
 };

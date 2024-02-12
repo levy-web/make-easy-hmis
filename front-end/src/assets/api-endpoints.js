@@ -92,7 +92,10 @@ export const API_URL = {
   FETCH_ANNOUNCEMENTS:"/announcement/announcements/",
 
   /***************** PDFs **********************/
-  DOWNLOAD_PDF: "/download"
+  DOWNLOAD_PDF: "/download",
+
+  /***************** CHATGPT **********************/
+  CHATGPT_PROMPT: "https://api.openai.com/v1/chat/completions",
 
 };
 
@@ -191,7 +194,10 @@ export const APP_API_URL = {
   FETCH_ANNOUNCEMENTS:"/api/announcement/announcements/",
 
   /***************** PDFs **********************/
-  DOWNLOAD_PDF: "/api/pdf/download_pdf"
+  DOWNLOAD_PDF: "/api/pdf/download_pdf",
+
+  /***************** CHATGPT **********************/
+  CHATGPT_PROMPT: "/api/openai/chatgpt"
 
 };
 
